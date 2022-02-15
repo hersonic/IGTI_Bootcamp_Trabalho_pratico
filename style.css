@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background-color: rgb(195, 216, 214);
+}
+
+td,
+th {
+  padding: 8px;
+  text-align: left;
+}
+
+th,
+h1,
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.entradas {
+  display: flex;
+}
+
+.entradas > div ~ div {
+  margin-left: 16px;
+}
+
+button,
+table {
+  margin-top: 8px;
+}
+
+.app {
+  background-color: rgb(255, 166, 0);
+  margin: auto;
+  padding: 16px;
+  max-width: 550px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 4px;
+}
+
+table {
+  margin: auto;
+  margin-top: 15px;
+}
